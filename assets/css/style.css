@@ -1,0 +1,50 @@
+#main-div {
+}
+
+#add-animal {
+    min-width: 100px;
+}
+
+#add-animal-header {
+    font-size: 2.0em;
+}
+
+.animal-button {
+   margin: 5px!important;
+}
+
+
+.gif {
+    margin: 1%;
+    max-width: 18%;
+    flex: 18%;
+    border: 1px #007bff solid;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 992px) {
+    .gif {
+        margin: 1%;
+        max-width: 33%;
+        flex: 33%
+    }
+
+    #add-animal-header {
+        font-size: 1.5em;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .gif {
+        margin: 1%;
+        max-width: 80%;
+        flex: 80%;
+    }
+
+    #add-animal-header {
+        font-size: 0.9em;
+        font-weight: 500;
+    }
+ 
+}
